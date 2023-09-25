@@ -108,7 +108,8 @@ analytics:
 author:
   name             : "Jeong Min"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "한림대학교 영어영문학과, 디지털 인문예술전공 졸업생\n강원대학교 스마트헬스 과학기술 융합학과 기계공학 석사과정"
+  bio              : "한림대학교 영어영문학과, 디지털 인문예술전공 졸업생"
+  bio              : "강원대학교 스마트헬스 과학기술 융합학과 기계공학 석사과정"
   location         : "Chun-Cheon,South Korea"
   email            : "j25ng.py@gmail.com"
   links:
