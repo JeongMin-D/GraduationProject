@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "JeongMin"
 description              : "Just do it."
 url                      : "https://JeongMin-D.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/GraduationProject" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Jeong Min"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "한림대학교 영어영문학과, 디지털 인문예술전공 졸업생 / 강원대학교 스마트헬스 과학기술 융합학과 기계공학 석사과정"
+  bio              : "한림대학교 영어영문학과, 디지털 인문예술전공 졸업생\n강원대학교 스마트헬스 과학기술 융합학과 기계공학 석사과정"
   location         : "Chun-Cheon,South Korea"
   email            : "j25ng.py@gmail.com"
   links:
