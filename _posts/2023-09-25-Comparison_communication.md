@@ -4,6 +4,7 @@
 
 ### 1. TCP (Transmission Control Protocol):
 - TCP는 네트워크를 통해 안정적이고 순서 있으며 오류 확인된 데이터 전달을 제공하는 연결 지향 프로토콜입니다.
+
 ```commandline
 import socket
 
@@ -24,6 +25,7 @@ client_socket.sendall(b'Hello, TCP Server!')
 
 ### 2. UDP (User Datagram Protocol):
 - UDP는 전달을 보장하지 않지만 더 빠른 전송을 제공하는 비연결 프로토콜입니다.
+
 ```commandline
 import socket
 
@@ -41,6 +43,7 @@ client_socket.sendto(b'Hello, UDP Server!', ('localhost', 12345))
 
 ### 3. Websockets:
 - 웹소켓은 표준 HTTP 포트를 통해 작동하는 단일 장기 연결을 통해 전이중 통신 채널을 제공합니다.
+
 ```commandline
 import asyncio
 import websockets
@@ -77,6 +80,7 @@ client.publish("topic/test", "Hello, MQTT!")
 
 ### 5. MySQL:
 - MySQL은 데이터 관리 및 조작을 위해 구조화된 쿼리 언어(SQL)를 사용하는 인기 있는 관계형 데이터베이스 관리 시스템입니다.
+
 ```commandline
 import mysql.connector
 
@@ -99,6 +103,7 @@ for row in cursor.fetchall():
 
 ### 6. NoSQL:
 - NoSQL 데이터베이스는 전통적인 관계형 데이터베이스 관리 시스템(RDBMS) 구조에 의존하지 않는 데이터베이스 범주입니다.
+
 ```commandline
 import pymongo
 
