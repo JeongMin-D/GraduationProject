@@ -65,6 +65,7 @@ asyncio.get_event_loop().run_forever()
 
 ### 4. MQTT (Message Queuing Telemetry Transport):
 - MQTT는 대기 시간이 길거나 신뢰할 수 없는 네트워크에 최적화된 소형 센서 및 모바일 장치를 위한 경량 메시징 프로토콜입니다.
+
 ```python
 import paho.mqtt.client as mqtt
 
