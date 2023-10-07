@@ -58,6 +58,7 @@ catkin_create_pkg 패키지이름 std_msgs rospy roscpp
 ## 빌드 설정 파일(CMakeList.txt) 수정
 
 - CMakeList.txt는 빌드 환경을 기술하고 있는 파일로 실행 파일 생성과 의존성 패키지 우선 빌드, 링크 생성 등을 설정
+
 ```text
 # 운영체제에 설치된 cmake의 최소 요구 버전
 cmake_minimum_required(VERSION 3.0.2)
