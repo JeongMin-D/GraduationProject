@@ -198,10 +198,3 @@ catkin_install_python(PROGRAMS
 ```commandline
 catkin_make
 ```
-
-- 파이썬 스크립트 두 개 각각에 대해 권한을 허용
-
-```commandline
-chmod +x talker_py.py
-chmod +x listener_py.py
-```
