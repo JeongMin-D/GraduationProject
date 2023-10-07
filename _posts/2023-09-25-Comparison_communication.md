@@ -1,7 +1,7 @@
 ---
 title: "Comparison Communication"
 date: 2023-09-25
-categories: jekyll update
+categories: communication data dataset socket udp tcp websocket mqtt nosql mysql
 ---
 
 # 통신 프로토콜(데이터베이스 포함) 설명 및 비교
