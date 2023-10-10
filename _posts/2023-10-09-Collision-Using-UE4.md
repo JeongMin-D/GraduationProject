@@ -67,9 +67,6 @@ python val.py --data 데이터 학습할 때의 yaml 파일.yaml --weights 학�
 
 ## Object detection, Location estimation and Upload data to MySQL
 
-<details>
-<summary>전체 코드</summary>
-
 ```python
 # YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
 """
@@ -432,8 +429,6 @@ if __name__ == '__main__':
     main(opt)
 ```
 
-</details>
-
 ```commandline
 python test4.py --weights best.pt --source 0 --device 0 --conf 0.6 --line-thickness 2
 ```
@@ -536,9 +531,6 @@ python test4.py --weights best.pt --source 0 --device 0 --conf 0.6 --line-thickn
 # AMR
 
 ## Custom DWA Algorithm
-
-<details>
-<summary>전체 코드</summary>
 
 ```python
 #!/usr/bin/env python
@@ -854,8 +846,6 @@ if __name__ == '__main__':
     except rospy.ROSInterruptException:
         pass
 ```
-
-</details>
 
 ### Upload Odometry to MySQL
 
